@@ -75,7 +75,8 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
           {/* Real Shop Photo */}
-          <div className="relative">
+          {/* mx-4 on mobile gives room so badges don't overlap surrounding content */}
+          <div className="relative mx-4 sm:mx-0">
 
             {/* Premium gold-glow frame */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-[3px] border-gold-secondary/60 animate-gold-glow">
@@ -99,10 +100,10 @@ export default function AboutPage() {
                   style={{ background: 'radial-gradient(ellipse at center, transparent 50%, rgba(74,10,23,0.40) 100%)' }}
                 />
 
-                {/* Flagship Showroom ribbon badge */}
-                <div className="absolute top-4 left-0 z-10 flex items-center">
+                {/* Flagship Showroom ribbon — sits fully inside image */}
+                <div className="absolute top-3 left-0 z-10 flex items-center">
                   <div
-                    className="px-4 py-1.5 text-[11px] font-black uppercase tracking-widest"
+                    className="px-3 py-1 text-[9px] sm:text-[11px] font-black uppercase tracking-widest"
                     style={{ background: 'linear-gradient(90deg, #4A0A17, #6B1022)', color: '#FFD700' }}
                   >
                     ✦ Our Flagship Showroom
@@ -111,17 +112,30 @@ export default function AboutPage() {
                   <div
                     className="w-0 h-0"
                     style={{
-                      borderTop: '22px solid transparent',
-                      borderBottom: '22px solid transparent',
-                      borderLeft: '14px solid #6B1022'
+                      borderTop: '18px solid transparent',
+                      borderBottom: '18px solid transparent',
+                      borderLeft: '12px solid #6B1022'
                     }}
                   />
                 </div>
 
+                {/* Floating badge – top right INSIDE image frame */}
+                <div className="absolute top-2 right-2 z-20 bg-gold-gradient rounded-full w-12 h-12 sm:w-14 sm:h-14 flex flex-col items-center justify-center shadow-lg border-2 border-white/60">
+                  <Star className="w-3 h-3 sm:w-4 sm:h-4 text-maroon-primary fill-maroon-primary" />
+                  <span className="text-[7px] font-black text-maroon-dark leading-tight text-center uppercase">Premium</span>
+                  <span className="text-[6px] font-bold text-maroon-dark">Quality</span>
+                </div>
+
+                {/* Floating badge – bottom left INSIDE image frame */}
+                <div className="absolute bottom-8 left-2 z-20 bg-silk-maroon rounded-full w-12 h-12 sm:w-14 sm:h-14 flex flex-col items-center justify-center shadow-lg border-2 border-gold-secondary/40">
+                  <span className="text-gold-accent text-[10px] font-black">AP</span>
+                  <span className="text-[6px] text-cream/80 leading-tight text-center uppercase font-bold">Hand<br />Loom</span>
+                </div>
+
                 {/* Bottom caption bar */}
-                <div className="absolute bottom-0 left-0 right-0 z-10 px-4 py-2"
-                  style={{ background: 'linear-gradient(0deg, rgba(74,10,23,0.85) 0%, transparent 100%)' }}>
-                  <p className="text-[10px] text-gold-accent font-semibold tracking-wider text-center">
+                <div className="absolute bottom-0 left-0 right-0 z-10 px-3 py-2"
+                  style={{ background: 'linear-gradient(0deg, rgba(74,10,23,0.90) 0%, transparent 100%)' }}>
+                  <p className="text-[9px] sm:text-[10px] text-gold-accent font-semibold tracking-wide text-center leading-snug">
                     # 3-146-14-5-A1, Chowdeswari 3rd Cross, NG Palle, Madanapalle – 517325, A.P.
                   </p>
                 </div>
@@ -131,23 +145,10 @@ export default function AboutPage() {
               <div className="h-2 w-full" style={{ background: 'linear-gradient(90deg, #B5902A, #FFD700, #D4AF37, #FFD700, #B5902A)' }} />
             </div>
 
-            {/* Floating badge – top right */}
-            <div className="absolute -top-3 -right-3 bg-gold-gradient rounded-full w-16 h-16 flex flex-col items-center justify-center shadow-lg border-2 border-white/60 z-10">
-              <Star className="w-4 h-4 text-maroon-primary fill-maroon-primary" />
-              <span className="text-[8px] font-black text-maroon-dark leading-tight text-center uppercase">Premium</span>
-              <span className="text-[7px] font-bold text-maroon-dark">Quality</span>
-            </div>
-
-            {/* Floating badge – bottom left */}
-            <div className="absolute -bottom-3 -left-3 bg-silk-maroon rounded-full w-16 h-16 flex flex-col items-center justify-center shadow-lg border-2 border-gold-secondary/40 z-10">
-              <span className="text-gold-accent text-xs font-black">AP</span>
-              <span className="text-[7px] text-cream/80 leading-tight text-center uppercase font-bold">Hand<br />Loom</span>
-            </div>
-
             {/* Location tag below image */}
-            <div className="mt-5 flex items-center justify-center gap-2 text-xs text-maroon-primary font-semibold">
+            <div className="mt-4 flex items-center justify-center gap-2 text-xs text-maroon-primary font-semibold px-2">
               <MapPin className="w-4 h-4 text-gold-secondary flex-shrink-0" />
-              <span>Chowdeswari 3rd Cross, Madanapalle, Andhra Pradesh – 517325</span>
+              <span className="text-center">Chowdeswari 3rd Cross, Madanapalle, Andhra Pradesh – 517325</span>
             </div>
           </div>
 
