@@ -1,0 +1,418 @@
+{
+  "banners": [
+    {
+      "id": "1",
+      "title": "Timeless Handloom Elegance",
+      "subtitle": "Manufacturing Pure Handloom Silk Sarees for Every Celebration",
+      "imageUrl": "/images/hero-banner.png",
+      "link": "#collections"
+    }
+  ],
+  "collections": [
+    {
+      "id": "1",
+      "name": "Wedding Collection",
+      "slug": "wedding-collection",
+      "description": "Grand and heavy silk sarees woven with pure gold zari, designed to make your wedding day unforgettable.",
+      "imageUrl": "/images/wedding-saree-1b.png"
+    },
+    {
+      "id": "2",
+      "name": "Bridal Silk Sarees",
+      "slug": "bridal-silk",
+      "description": "Bespoke bridal silk sarees featuring elaborate traditional temple borders and exquisite motifs.",
+      "imageUrl": "/images/bridal-saree-1b.png"
+    },
+    {
+      "id": "3",
+      "name": "Kanchipuram Inspired",
+      "slug": "kanchipuram-inspired",
+      "description": "Royal Kanchipuram style silk sarees with rich contrast borders and grand woven pallu.",
+      "imageUrl": "/images/kanchipuram-1b.png"
+    },
+    {
+      "id": "4",
+      "name": "Traditional Sarees",
+      "slug": "traditional",
+      "description": "Classic sarees highlighting the ancient heritage and traditional weaving styles of South Indian culture.",
+      "imageUrl": "/images/traditional-1b.png"
+    },
+    {
+      "id": "5",
+      "name": "Festival Collection",
+      "slug": "festival",
+      "description": "Vibrant and elegant silk sarees to add grace, warmth, and luxury to your festive occasions.",
+      "imageUrl": "/images/festival-1b.png"
+    },
+    {
+      "id": "6",
+      "name": "Designer Sarees",
+      "slug": "designer",
+      "description": "Exquisite designer sarees blending heritage handloom weaves with contemporary artistic patterns.",
+      "imageUrl": "/images/designer-saree-3.png"
+    },
+    {
+      "id": "7",
+      "name": "Premium Handloom Collection",
+      "slug": "premium-handloom",
+      "description": "Pure silks woven lovingly by our master craftsmen, celebrating the true soul of Indian handlooms.",
+      "imageUrl": "/images/bridal-saree-2.png"
+    },
+    {
+      "id": "8",
+      "name": "Wholesale Collection",
+      "slug": "wholesale",
+      "description": "Premium bulk silk sarees directly from our looms at unbeatable wholesale prices for retail partners.",
+      "imageUrl": "/images/wholesale-saree-5.png"
+    }
+  ],
+  "sarees": [
+    {
+      "id": "s1",
+      "name": "Crimson Rajkumari Kanchipuram Silk",
+      "description": "A magnificent crimson red silk saree featuring heavy gold zari check designs, thick royal borders, and an ornate traditional pallu woven in Madanapalle.",
+      "imageUrl": "/images/wedding-saree-1b.png",
+      "categorySlug": "wedding-collection",
+      "tags": ["Wedding", "Bridal", "Kanchipuram"]
+    },
+    {
+      "id": "s2",
+      "name": "Swarna Mayuri Golden Silk Saree",
+      "description": "A gorgeous South Indian bridal saree in heavy golden-yellow silk with a rich pink border, intricate gold embroidery work, and peacock patterns.",
+      "imageUrl": "/images/wedding-saree-2b.png",
+      "categorySlug": "wedding-collection",
+      "tags": ["Wedding", "Bridal", "Gold"]
+    },
+    {
+      "id": "s3",
+      "name": "Classic Varanasi Crimson Zari",
+      "description": "Premium crimson red silk saree with emerald green borders, rich gold temple zari details. Drape is incredibly soft and heavy, perfect for the main mandap.",
+      "imageUrl": "/images/bridal-saree-1b.png",
+      "categorySlug": "wedding-collection",
+      "tags": ["Wedding", "Bridal", "Zari"]
+    },
+    {
+      "id": "s4",
+      "name": "Ganga Jamuna Contrast Silk Saree",
+      "description": "Double border Kanchipuram inspired weave featuring royal blue on one side and crimson red on the other, connected by an elegant gold zari strip.",
+      "imageUrl": "/images/kanchipuram-2b.png",
+      "categorySlug": "wedding-collection",
+      "tags": ["Wedding", "Contrast", "Kanchipuram"]
+    },
+    {
+      "id": "s5",
+      "name": "Temple Border Royal Red Saree",
+      "description": "Intricate temple spires woven in gold zari along a deep burgundy red border, paired with an elegant plain maroon body and a heavy zari pallu.",
+      "imageUrl": "/images/wedding-saree-1.png",
+      "categorySlug": "wedding-collection",
+      "tags": ["Wedding", "Temple", "Red"]
+    },
+    {
+      "id": "s6",
+      "name": "Srinivasa Heritage Pink Bridal Saree",
+      "description": "A beautiful pink bridal silk saree with detailed gold peacock motifs on the border, draped on a South Indian model with traditional styling.",
+      "imageUrl": "/images/bridal-saree-2b.png",
+      "categorySlug": "bridal-silk",
+      "tags": ["Bridal", "Pink", "Peacock"]
+    },
+    {
+      "id": "s7",
+      "name": "Swarna Mayuri Ivory Bridal Saree",
+      "description": "An elegant ivory cream silk base contrasting with heavy gold temple zari borders, featuring peacock (Mayuri) motifs along the pallu.",
+      "imageUrl": "/images/bridal-saree-2.png",
+      "categorySlug": "bridal-silk",
+      "tags": ["Bridal", "Ivory", "Gold"]
+    },
+    {
+      "id": "s8",
+      "name": "Madhubani Motif Emerald Bridal Saree",
+      "description": "Emerald green pure silk saree displaying fine gold-threaded Madhubani drawings on the borders, paired with a crimson pink pallu.",
+      "imageUrl": "/images/kanchipuram-1b.png",
+      "categorySlug": "bridal-silk",
+      "tags": ["Bridal", "Green", "Emerald"]
+    },
+    {
+      "id": "s9",
+      "name": "Royal Amethyst Bridal Silk Saree",
+      "description": "Royal violet bridal body paired with mustard-orange contrast silk borders, displaying fine handloom checks and traditional motifs throughout.",
+      "imageUrl": "/images/traditional-saree-4.png",
+      "categorySlug": "bridal-silk",
+      "tags": ["Bridal", "Violet", "Mustard"]
+    },
+    {
+      "id": "s10",
+      "name": "Madanapalle Traditional Red Bridal Silk",
+      "description": "A hand-woven heavy bridal silk saree in classical postbox red, with detailed zari designs portraying traditional village life scenes on the border.",
+      "imageUrl": "/images/bridal-saree-1b.png",
+      "categorySlug": "bridal-silk",
+      "tags": ["Bridal", "Red", "Heritage"]
+    },
+    {
+      "id": "s11",
+      "name": "Emerald Royal Kanchipuram Weave",
+      "description": "An emerald green Kanchipuram silk saree with a thick royal gold contrast border, draped on a model posing next to stone temple pillars.",
+      "imageUrl": "/images/kanchipuram-1b.png",
+      "categorySlug": "kanchipuram-inspired",
+      "tags": ["Kanchipuram", "Emerald", "Gold"]
+    },
+    {
+      "id": "s12",
+      "name": "Royal Blue Gold Zari Kanchipuram",
+      "description": "A royal blue Kanchipuram silk saree with a thick gold border, folded elegantly to showcase the gold zari weaving work and peacock motifs.",
+      "imageUrl": "/images/kanchipuram-2b.png",
+      "categorySlug": "kanchipuram-inspired",
+      "tags": ["Kanchipuram", "Blue", "Gold"]
+    },
+    {
+      "id": "s13",
+      "name": "Turquoise & Pink Kanchipuram Inspired",
+      "description": "Dazzling turquoise body offset by a broad magenta-pink border, decorated with interlocking check zari patterns and rudraksha bead motifs.",
+      "imageUrl": "/images/wedding-saree-2b.png",
+      "categorySlug": "kanchipuram-inspired",
+      "tags": ["Kanchipuram", "Turquoise", "Pink"]
+    },
+    {
+      "id": "s14",
+      "name": "Golden Honey Kanchipuram Brocade",
+      "description": "Pure silk saree with honey-gold base, featuring intricate self-brocade work and a contrasting dark maroon pallu with silver zari leaf details.",
+      "imageUrl": "/images/bridal-saree-2.png",
+      "categorySlug": "kanchipuram-inspired",
+      "tags": ["Kanchipuram", "Honey", "Brocade"]
+    },
+    {
+      "id": "s15",
+      "name": "Magenta Queen Kanchipuram Silk",
+      "description": "Vibrant magenta-purple body paired with an exceptionally thick gold zari border, showing intricate traditional diamond weave patterns.",
+      "imageUrl": "/images/bridal-saree-2b.png",
+      "categorySlug": "kanchipuram-inspired",
+      "tags": ["Kanchipuram", "Magenta", "Zari"]
+    },
+    {
+      "id": "s16",
+      "name": "Mustard Checks Traditional Handloom Saree",
+      "description": "A traditional mustard yellow and red South Indian check handloom silk saree, worn by a smiling Indian model. Natural daylight courtyard view.",
+      "imageUrl": "/images/traditional-1b.png",
+      "categorySlug": "traditional",
+      "tags": ["Traditional", "Mustard", "Checks"]
+    },
+    {
+      "id": "s17",
+      "name": "Magenta & Orange Classic Handloom",
+      "description": "A traditional magenta handloom silk saree with an orange border, folded neatly, displaying the fine weaving and simple checks pattern.",
+      "imageUrl": "/images/traditional-2b.png",
+      "categorySlug": "traditional",
+      "tags": ["Traditional", "Magenta", "Orange"]
+    },
+    {
+      "id": "s18",
+      "name": "Amethyst Traditional Handloom checks",
+      "description": "Classic amethyst purple silk body featuring micro-checks, framed by a thick mustard yellow border and matching pallu containing mango patterns.",
+      "imageUrl": "/images/traditional-saree-4.png",
+      "categorySlug": "traditional",
+      "tags": ["Traditional", "Amethyst", "Checks"]
+    },
+    {
+      "id": "s19",
+      "name": "Traditional Crimson & Gold Border Saree",
+      "description": "Plain crimson red body with simple double gold line borders, capturing the minimalist elegance of classic South Indian handlooms.",
+      "imageUrl": "/images/bridal-saree-1b.png",
+      "categorySlug": "traditional",
+      "tags": ["Traditional", "Crimson", "Gold"]
+    },
+    {
+      "id": "s20",
+      "name": "Handloom Forest Green Traditional",
+      "description": "Deep forest green body with a maroon border, carrying traditional thread-work spires and a checks pallu.",
+      "imageUrl": "/images/kanchipuram-1b.png",
+      "categorySlug": "traditional",
+      "tags": ["Traditional", "Green", "Checks"]
+    },
+    {
+      "id": "s21",
+      "name": "Festival Glow Orange & Gold Silk",
+      "description": "An orange and gold silk saree worn by an Indian woman lighting festival oil lamps. Warm gold glow, detailed fabric textures.",
+      "imageUrl": "/images/festival-1b.png",
+      "categorySlug": "festival",
+      "tags": ["Festival", "Orange", "Gold"]
+    },
+    {
+      "id": "s22",
+      "name": "Amethyst Silver Shimmer Festival Saree",
+      "description": "A violet and silver zari silk saree, folded to showcase the shimmering silver patterns and purple silk sheen under festival lighting.",
+      "imageUrl": "/images/festival-2b.png",
+      "categorySlug": "festival",
+      "tags": ["Festival", "Violet", "Silver"]
+    },
+    {
+      "id": "s23",
+      "name": "Golden Sunflower Festival Silk Saree",
+      "description": "Bright sunflower-yellow base silk saree decorated with a contrast pink border containing floral climber motifs in gold thread.",
+      "imageUrl": "/images/wedding-saree-2b.png",
+      "categorySlug": "festival",
+      "tags": ["Festival", "Yellow", "Gold"]
+    },
+    {
+      "id": "s24",
+      "name": "Crimson Deep Festival Silk Saree",
+      "description": "A rich, vibrant red silk saree featuring small gold buttis (dots) across the body and an ornate gold zari border with vine patterns.",
+      "imageUrl": "/images/wedding-saree-1b.png",
+      "categorySlug": "festival",
+      "tags": ["Festival", "Red", "Gold"]
+    },
+    {
+      "id": "s25",
+      "name": "Traditional Peacock Blue Festival Silk",
+      "description": "Peacock blue body with a deep magenta border, showing traditional festival temple designs and a detailed lines pallu.",
+      "imageUrl": "/images/kanchipuram-2b.png",
+      "categorySlug": "festival",
+      "tags": ["Festival", "Blue", "Peacock"]
+    },
+    {
+      "id": "s26",
+      "name": "Madanapalle Heritage Maroon Designer Silk",
+      "description": "Deep maroon designer wedding silk saree adorned with delicate golden zari embroidery and modern bead craftsmanship on borders.",
+      "imageUrl": "/images/designer-saree-3.png",
+      "categorySlug": "designer",
+      "tags": ["Designer", "Maroon", "Embroidery"]
+    },
+    {
+      "id": "s27",
+      "name": "Royal Violet & Silver Brocade Saree",
+      "description": "A violet silk base adorned with all-over silver brocade work, paired with a modern designer scalloped border in silver zari.",
+      "imageUrl": "/images/festival-2b.png",
+      "categorySlug": "designer",
+      "tags": ["Designer", "Violet", "Silver"]
+    },
+    {
+      "id": "s28",
+      "name": "Ivory Pearl Border Designer Saree",
+      "description": "Classic ivory silk saree styled with a contemporary hand-stitched border consisting of faux pearls and gold beads.",
+      "imageUrl": "/images/bridal-saree-2.png",
+      "categorySlug": "designer",
+      "tags": ["Designer", "Ivory", "Pearls"]
+    },
+    {
+      "id": "s29",
+      "name": "Forest Fern Emerald Designer Saree",
+      "description": "Deep emerald green silk saree showcasing stylized fern and floral branch designs hand-painted and highlighted with gold thread outline work.",
+      "imageUrl": "/images/kanchipuram-1b.png",
+      "categorySlug": "designer",
+      "tags": ["Designer", "Green", "Floral"]
+    },
+    {
+      "id": "s30",
+      "name": "Blush Pink Designer Georgette-Silk",
+      "description": "A lightweight georgette-silk blend in a soft blush pink shade, featuring a heavy hand-embroidered border with floral designs.",
+      "imageUrl": "/images/bridal-saree-2b.png",
+      "categorySlug": "designer",
+      "tags": ["Designer", "Pink", "Floral"]
+    },
+    {
+      "id": "s31",
+      "name": "Traditional Cream & Gold Handloom Silk",
+      "description": "Cream white and pure gold zari traditional handloom silk saree, folded to show detailed gold thread motifs on the borders and fabric texture.",
+      "imageUrl": "/images/bridal-saree-2.png",
+      "categorySlug": "premium-handloom",
+      "tags": ["Handloom", "Cream", "Gold"]
+    },
+    {
+      "id": "s32",
+      "name": "Mustard Traditional checks Handloom Saree",
+      "description": "Mustard-yellow check handloom silk body with contrast red borders, showcasing the pure organic colors and traditional checks.",
+      "imageUrl": "/images/traditional-1b.png",
+      "categorySlug": "premium-handloom",
+      "tags": ["Handloom", "Mustard", "Checks"]
+    },
+    {
+      "id": "s33",
+      "name": "Magenta & Orange Fine Weave Saree",
+      "description": "Magenta body with orange borders, handloom-woven on traditional looms in Madanapalle using pure organic silk threads.",
+      "imageUrl": "/images/traditional-2b.png",
+      "categorySlug": "premium-handloom",
+      "tags": ["Handloom", "Magenta", "Orange"]
+    },
+    {
+      "id": "s34",
+      "name": "Violet & Mustard Heritage Weave",
+      "description": "Traditional pure silk handloom showing dense checks in violet and yellow, completed with a broad pallu carrying mango motifs.",
+      "imageUrl": "/images/traditional-saree-4.png",
+      "categorySlug": "premium-handloom",
+      "tags": ["Handloom", "Violet", "Checks"]
+    },
+    {
+      "id": "s35",
+      "name": "Emerald Green Heritage Handloom Saree",
+      "description": "Rich forest green body with contrast pink borders. Made from high-grade silk fibers that draping smoothly and offer a brilliant shine.",
+      "imageUrl": "/images/kanchipuram-1b.png",
+      "categorySlug": "premium-handloom",
+      "tags": ["Handloom", "Green", "Pink"]
+    },
+    {
+      "id": "s36",
+      "name": "Wholesale Saree stack Spectrum display",
+      "description": "A stack of multiple colorful handloom silk sarees, displaying a spectrum of borders. Designed for retailer bulk orders.",
+      "imageUrl": "/images/wholesale-saree-5.png",
+      "categorySlug": "wholesale",
+      "tags": ["Wholesale", "Stack", "Spectrum"]
+    },
+    {
+      "id": "s37",
+      "name": "Kanchipuram Red Zari Saree Bundle",
+      "description": "A bulk batch of traditional red silk sarees with heavy gold zari, ready for bridal party group wear and retail showroom orders.",
+      "imageUrl": "/images/wedding-saree-1b.png",
+      "categorySlug": "wholesale",
+      "tags": ["Wholesale", "Red", "Bridal"]
+    },
+    {
+      "id": "s38",
+      "name": "Ganga Jamuna Contrast Saree Bundle",
+      "description": "A set of contrast Kanchipuram inspired sarees featuring royal blue and gold borders, packaged for wedding party bulk sourcing.",
+      "imageUrl": "/images/kanchipuram-2b.png",
+      "categorySlug": "wholesale",
+      "tags": ["Wholesale", "Blue", "Contrast"]
+    },
+    {
+      "id": "s39",
+      "name": "Traditional Checks Saree wholesale Stack",
+      "description": "A batch of traditional mustard yellow checks silk sarees with red borders, popular for wholesale purchase in boutiques.",
+      "imageUrl": "/images/traditional-1b.png",
+      "categorySlug": "wholesale",
+      "tags": ["Wholesale", "Mustard", "Checks"]
+    },
+    {
+      "id": "s40",
+      "name": "Magenta & Orange Traditional Stack",
+      "description": "A stack of traditional magenta silk sarees with orange borders, available in multiple count packs for clothing stores.",
+      "imageUrl": "/images/traditional-2b.png",
+      "categorySlug": "wholesale",
+      "tags": ["Wholesale", "Magenta", "Orange"]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Aaradhya Reddy",
+      "role": "Bride from Hyderabad",
+      "review": "The bridal silk saree I purchased from Sri Srinivasa was the highlight of my wedding. The fabric drape and the gold zari border look absolutely majestic. Pure heritage and craftsmanship!",
+      "rating": 5,
+      "date": "2026-05-15"
+    },
+    {
+      "id": "t2",
+      "name": "Srinivas Rao",
+      "role": "Saree Showroom Owner, Bangalore",
+      "review": "We source our premium wedding collections from Sri Srinivasa Silk Sarees. Their direct manufacturing pricing and immaculate quality checks make them our most trusted wholesale partner.",
+      "rating": 5,
+      "date": "2026-04-28"
+    },
+    {
+      "id": "t3",
+      "name": "Lakshmi Prasanna",
+      "role": "Local Customer, Madanapalle",
+      "review": "Authentic handloom sarees with amazing designs. The owners, Sathish and Srinivasulu, are very hospitable and showed us the weaving process too. A must-visit place for sarees!",
+      "rating": 5,
+      "date": "2026-05-20"
+    }
+  ],
+  "inquiries": []
+}
