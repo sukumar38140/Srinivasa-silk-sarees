@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Clock, Heart } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -88,28 +88,20 @@ export default function Footer() {
         </div>
 
         {/* Lower Footer */}
-        <div className="mt-16 border-t border-gold-secondary/15 pt-8 space-y-4">
+        <div className="mt-16 border-t border-gold-secondary/15 pt-8">
           <div className="flex flex-col sm:flex-row items-center justify-between text-xs text-cream/50 space-y-3 sm:space-y-0">
             <p>&copy; {currentYear} Sri Srinivasa Silk Sarees. All Rights Reserved.</p>
-            <div className="flex items-center space-x-1">
-              <span>Crafted with</span>
-              <Heart className="w-3.5 h-3.5 text-gold-accent fill-gold-accent" />
-              <span>in Madanapalle</span>
-            </div>
+            <p className="text-[11px] tracking-wide">
+              Developed by{' '}
+              <span className="text-gold-secondary/70 font-semibold hover:text-gold-accent transition-colors cursor-default">
+                Rubicorn Technologies Pvt Ltd
+              </span>
+            </p>
             <div className="flex space-x-6">
               <Link href="/admin" className="hover:text-gold-accent transition-colors">
                 Admin Portal
               </Link>
             </div>
-          </div>
-          {/* Developer Credit */}
-          <div className="text-center pt-2 border-t border-gold-secondary/10">
-            <p className="text-[11px] text-cream/35 tracking-wide">
-              Designed &amp; Developed by{' '}
-              <span className="text-gold-secondary/70 font-semibold hover:text-gold-accent transition-colors cursor-default">
-                Rubicorn Technologies Pvt Ltd
-              </span>
-            </p>
           </div>
         </div>
       </div>
