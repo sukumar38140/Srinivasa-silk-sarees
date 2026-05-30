@@ -77,8 +77,8 @@ export default function RootLayout({
     },
     'geo': {
       '@type': 'GeoCoordinates',
-      'latitude': '13.6264',
-      'longitude': '78.5085'
+      'latitude': '13.5731094',
+      'longitude': '78.5010884'
     },
     'url': 'https://srisrinivasasilksarees.com',
     'openingHoursSpecification': {

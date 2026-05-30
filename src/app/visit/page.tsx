@@ -116,7 +116,7 @@ export default function VisitShowroomPage() {
               {/* Actual Map Embed centered at Chowdeswari St, Madanapalle */}
               <iframe
                 title="Sri Srinivasa Silk Sarees Google Map Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.605389658252!2d78.5042456!3d13.6264663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb2594a558509c3%3A0xe54b9f3e498c3639!2sKadiri%20Rd%2C%20Madanapalle%2C%20Andhra%20Pradesh%20517325!5e0!3m2!1sen!2sin!4v1780139900000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.210452358988!2d78.5005397!3d13.5731094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb2670021ee6b2f%3A0x239a826289cd9aa8!2sSri%20Srinivasa%20silks%20madanapalle!5e0!3m2!1sen!2sin!4v1780140000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -128,7 +128,7 @@ export default function VisitShowroomPage() {
             </div>
             
             <a
-              href="https://maps.google.com/?q=Beside+Radha+Krishna+Silks+Textiles,+Chowdeswari+3rd+Street,+Kadiri+Road,+Madanapalle+Andhra+Pradesh"
+              href="https://www.google.com/maps/place/Sri+Srinivasa+silks+madanapalle/@13.5731094,78.5010884,17z"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-white bg-maroon-primary hover:bg-maroon-dark px-6 py-4 rounded shadow-md transition-colors w-full justify-center"

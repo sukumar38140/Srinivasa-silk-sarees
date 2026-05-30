@@ -281,7 +281,7 @@ export default function ContactPage() {
 
               <div className="pt-2">
                 <a
-                  href="https://maps.google.com/?q=Beside+Radha+Krishna+Silks+Textiles,+Chowdeswari+3rd+Street,+Kadiri+Road,+Madanapalle+Andhra+Pradesh"
+                  href="https://www.google.com/maps/place/Sri+Srinivasa+silks+madanapalle/@13.5731094,78.5010884,17z"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-2 border border-gold-secondary text-maroon-primary hover:bg-cream text-xs font-bold uppercase tracking-wider py-3.5 rounded transition-all"
