@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import TempleDivider from '@/components/ui/temple-divider';
-import { Award, Eye, Heart, Compass, Star } from 'lucide-react';
+import { Award, Eye, Heart, Star, MapPin, Phone } from 'lucide-react';
 
 export const metadata = {
   title: 'About Us | Sri Srinivasa Silk Sarees',
@@ -53,6 +53,7 @@ export default function AboutPage() {
 
   return (
     <div className="w-full space-y-20 pb-20">
+
       {/* Page Header */}
       <section className="bg-silk-maroon text-white py-16 text-center border-b border-gold-secondary/20 relative">
         <div className="absolute inset-0 bg-[radial-gradient(#FAF5ED_1px,transparent_1px)] [background-size:20px_20px] opacity-5"></div>
@@ -69,20 +70,88 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Story & Legacy Content */}
+      {/* Story & Shop Showcase Section */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="relative aspect-square md:aspect-video lg:aspect-4/5 rounded-lg overflow-hidden border-2 border-gold-secondary/20 shadow-2xl">
-            <Image
-              src="/images/store-interior.png"
-              alt="Inside Sri Srinivasa Handloom Boutique"
-              fill
-              className="object-cover"
-            />
-            {/* Ornate border overlay */}
-            <div className="absolute inset-4 border border-gold-secondary/30 pointer-events-none"></div>
+
+          {/* Real Shop Photo */}
+          <div className="relative">
+
+            {/* Premium gold-glow frame */}
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-[3px] border-gold-secondary/60 animate-gold-glow">
+
+              {/* Top gold ornament strip */}
+              <div className="h-2 w-full" style={{ background: 'linear-gradient(90deg, #B5902A, #FFD700, #D4AF37, #FFD700, #B5902A)' }} />
+
+              {/* Actual flagship shop photo */}
+              <div className="relative w-full" style={{ aspectRatio: '4/3' }}>
+                <Image
+                  src="/images/sri-srinivasa-silk-sarees-About page .jpg"
+                  alt="Sri Srinivasa Silk Sarees – Our Flagship Showroom at Chowdeswari 3rd Cross, Madanapalle"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+
+                {/* Vignette overlay for premium depth */}
+                <div
+                  className="absolute inset-0 pointer-events-none"
+                  style={{ background: 'radial-gradient(ellipse at center, transparent 50%, rgba(74,10,23,0.40) 100%)' }}
+                />
+
+                {/* Flagship Showroom ribbon badge */}
+                <div className="absolute top-4 left-0 z-10 flex items-center">
+                  <div
+                    className="px-4 py-1.5 text-[11px] font-black uppercase tracking-widest"
+                    style={{ background: 'linear-gradient(90deg, #4A0A17, #6B1022)', color: '#FFD700' }}
+                  >
+                    ✦ Our Flagship Showroom
+                  </div>
+                  {/* Arrow tip */}
+                  <div
+                    className="w-0 h-0"
+                    style={{
+                      borderTop: '22px solid transparent',
+                      borderBottom: '22px solid transparent',
+                      borderLeft: '14px solid #6B1022'
+                    }}
+                  />
+                </div>
+
+                {/* Bottom caption bar */}
+                <div className="absolute bottom-0 left-0 right-0 z-10 px-4 py-2"
+                  style={{ background: 'linear-gradient(0deg, rgba(74,10,23,0.85) 0%, transparent 100%)' }}>
+                  <p className="text-[10px] text-gold-accent font-semibold tracking-wider text-center">
+                    # 3-146-14-5-A1, Chowdeswari 3rd Cross, NG Palle, Madanapalle – 517325, A.P.
+                  </p>
+                </div>
+              </div>
+
+              {/* Bottom gold ornament strip */}
+              <div className="h-2 w-full" style={{ background: 'linear-gradient(90deg, #B5902A, #FFD700, #D4AF37, #FFD700, #B5902A)' }} />
+            </div>
+
+            {/* Floating badge – top right */}
+            <div className="absolute -top-3 -right-3 bg-gold-gradient rounded-full w-16 h-16 flex flex-col items-center justify-center shadow-lg border-2 border-white/60 z-10">
+              <Star className="w-4 h-4 text-maroon-primary fill-maroon-primary" />
+              <span className="text-[8px] font-black text-maroon-dark leading-tight text-center uppercase">Premium</span>
+              <span className="text-[7px] font-bold text-maroon-dark">Quality</span>
+            </div>
+
+            {/* Floating badge – bottom left */}
+            <div className="absolute -bottom-3 -left-3 bg-silk-maroon rounded-full w-16 h-16 flex flex-col items-center justify-center shadow-lg border-2 border-gold-secondary/40 z-10">
+              <span className="text-gold-accent text-xs font-black">AP</span>
+              <span className="text-[7px] text-cream/80 leading-tight text-center uppercase font-bold">Hand<br />Loom</span>
+            </div>
+
+            {/* Location tag below image */}
+            <div className="mt-5 flex items-center justify-center gap-2 text-xs text-maroon-primary font-semibold">
+              <MapPin className="w-4 h-4 text-gold-secondary flex-shrink-0" />
+              <span>Chowdeswari 3rd Cross, Madanapalle, Andhra Pradesh – 517325</span>
+            </div>
           </div>
 
+          {/* Story Text */}
           <div className="space-y-6">
             <h2 className="font-luxury text-3xl font-bold text-maroon-dark tracking-wide">
               The Journey of Our Craftsmanship
@@ -93,8 +162,24 @@ export default function AboutPage() {
             <p className="text-sm text-darktext/85 leading-relaxed">
               We specialize in the complex art of Kanchipuram-inspired handloom weaving. Every saree takes days, sometimes weeks, of concentrated coordination between our yarn sorters, design card makers, and master weavers. Under the management of <strong>M. Sathish Kumar</strong> and <strong>M. Srinivasulu</strong>, we ensure that every customer receives the exact saree they dreamed of, custom-inspected and hand-delivered.
             </p>
+
+            {/* Contact quick info */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                { value: '7997750760', icon: <Phone className="w-3.5 h-3.5" /> },
+                { value: '9502409797', icon: <Phone className="w-3.5 h-3.5" /> },
+                { value: '8919495829', icon: <Phone className="w-3.5 h-3.5" /> },
+                { value: 'Madanapalle, A.P.', icon: <MapPin className="w-3.5 h-3.5" /> },
+              ].map((item, idx) => (
+                <div key={idx} className="flex items-center gap-2 text-xs text-darktext/70 bg-gold-secondary/5 rounded-lg px-3 py-2 border border-gold-secondary/15">
+                  <span className="text-gold-secondary">{item.icon}</span>
+                  <span className="font-semibold text-maroon-primary">{item.value}</span>
+                </div>
+              ))}
+            </div>
+
             <div className="border-l-4 border-gold-secondary pl-4 italic text-sm text-maroon-primary bg-gold-secondary/5 py-3 rounded-r">
-              &ldquo;A saree is not just attire. It is the repository of our cultural memory, the canvas of our weavers' dreams, and the shine of your most precious celebrations.&rdquo;
+              &ldquo;A saree is not just attire. It is the repository of our cultural memory, the canvas of our weavers&apos; dreams, and the shine of your most precious celebrations.&rdquo;
               <span className="block text-xs font-bold uppercase mt-1.5 text-gold-dark not-italic">— M. Sathish Kumar</span>
             </div>
           </div>
@@ -146,9 +231,7 @@ export default function AboutPage() {
           <div className="relative border-l-2 border-gold-secondary/30 pl-8 ml-4 space-y-12">
             {milestones.map((mile, idx) => (
               <div key={idx} className="relative">
-                {/* Marker point */}
                 <div className="absolute top-1.5 -left-[41px] flex h-5 w-5 items-center justify-center rounded-full bg-maroon-primary border-2 border-gold-accent shadow"></div>
-                
                 <span className="text-xs font-bold uppercase tracking-widest text-gold-dark">
                   {mile.year}
                 </span>
@@ -164,11 +247,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Quality Promise Badge Banner */}
+      {/* Quality Promise Banner */}
       <section className="mx-auto max-w-5xl px-4">
         <div className="bg-silk-maroon text-cream rounded-2xl p-8 sm:p-12 border border-gold-secondary/20 shadow-2xl relative overflow-hidden text-center space-y-6">
           <div className="absolute inset-0 bg-[radial-gradient(#FFF8EF_1px,transparent_1px)] [background-size:24px_24px] opacity-5"></div>
-          
           <div className="relative z-10 space-y-4">
             <div className="flex justify-center space-x-1">
               {[...Array(5)].map((_, i) => (

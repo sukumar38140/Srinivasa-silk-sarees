@@ -171,8 +171,8 @@ export default function VisitShowroomPage() {
         <div className="bg-white border border-gold-secondary/20 rounded-xl overflow-hidden shadow-xl flex flex-col md:flex-row items-stretch">
           <div className="relative w-full md:w-2/5 min-h-[200px]">
             <Image
-              src="/images/store-interior.png"
-              alt="Silk fabric stack display"
+              src="/images/shop-board.png"
+              alt="Sri Srinivasa Silk Sarees Shop Board"
               fill
               className="object-cover"
             />

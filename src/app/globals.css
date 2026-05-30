@@ -113,3 +113,36 @@ body {
   border: 1px solid rgba(255, 215, 0, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
+
+/* Telugu Font Utility */
+.font-telugu {
+  font-family: var(--font-telugu), 'Noto Sans Telugu', sans-serif;
+}
+
+/* Gold Glow Pulse for Shop Board */
+@keyframes goldGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3), 0 0 20px rgba(212, 175, 55, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.6), 0 0 40px rgba(212, 175, 55, 0.2);
+  }
+}
+
+.animate-gold-glow {
+  animation: goldGlow 3s ease-in-out infinite;
+}
+
+/* Shimmer Effect for Gold Text */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.text-gold-shimmer {
+  background: linear-gradient(90deg, #B5902A 0%, #FFD700 25%, #D4AF37 50%, #FFD700 75%, #B5902A 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}

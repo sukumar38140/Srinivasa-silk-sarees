@@ -99,10 +99,10 @@ export default async function HomePage() {
             </div>
           </div>
           <div className="lg:col-span-5 relative">
-            <div className="relative aspect-4/5 rounded-lg overflow-hidden shadow-2xl border-4 border-gold-secondary/40">
+            <div className="relative aspect-video rounded-lg overflow-hidden shadow-2xl border-4 border-gold-secondary/40">
               <Image
-                src="/images/store-interior.png"
-                alt="Sri Srinivasa Saree Store Showroom"
+                src="/images/shop-board.png"
+                alt="Sri Srinivasa Silk Sarees Shop Board"
                 fill
                 sizes="(max-width: 1024px) 100vw, 500px"
                 className="object-cover hover:scale-105 transition-transform duration-700"
