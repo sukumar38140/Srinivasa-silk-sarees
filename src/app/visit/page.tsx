@@ -170,11 +170,19 @@ export default function VisitShowroomPage() {
       <section className="mx-auto max-w-4xl px-4">
         <div className="bg-white border border-gold-secondary/20 rounded-xl overflow-hidden shadow-xl flex flex-col md:flex-row items-stretch">
           <div className="relative w-full md:w-2/5 min-h-[200px]">
+            {/* Desktop Image: Shop Board */}
             <Image
               src="/images/shop-board.png"
               alt="Sri Srinivasa Silk Sarees Shop Board"
               fill
-              className="object-cover"
+              className="object-cover hidden md:block"
+            />
+            {/* Mobile/Tablet Image: Flagship Shop Photo */}
+            <Image
+              src="/images/sri-srinivasa-silk-sarees-About page .jpg"
+              alt="Sri Srinivasa Silk Sarees Flagship Showroom"
+              fill
+              className="object-cover block md:hidden"
             />
           </div>
           <div className="p-8 md:w-3/5 flex flex-col justify-center space-y-4">

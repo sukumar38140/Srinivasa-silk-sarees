@@ -98,19 +98,29 @@ export default async function HomePage() {
               </Link>
             </div>
           </div>
-          <div className="lg:col-span-5 relative">
-            <div className="relative aspect-video rounded-lg overflow-hidden shadow-2xl border-4 border-gold-secondary/40">
+          <div className="lg:col-span-5 relative mx-4 sm:mx-0">
+            <div className="relative aspect-[4/3] lg:aspect-video rounded-lg overflow-hidden shadow-2xl border-4 border-gold-secondary/40">
+              {/* Desktop Image: Shop Board */}
               <Image
                 src="/images/shop-board.png"
                 alt="Sri Srinivasa Silk Sarees Shop Board"
                 fill
                 sizes="(max-width: 1024px) 100vw, 500px"
-                className="object-cover hover:scale-105 transition-transform duration-700"
+                className="object-cover hover:scale-105 transition-transform duration-700 hidden lg:block"
+                priority
+              />
+              {/* Mobile/Tablet Image: Flagship Shop Photo */}
+              <Image
+                src="/images/sri-srinivasa-silk-sarees-About page .jpg"
+                alt="Sri Srinivasa Silk Sarees Flagship Showroom"
+                fill
+                sizes="(max-width: 1024px) 100vw, 500px"
+                className="object-cover hover:scale-105 transition-transform duration-700 block lg:hidden"
                 priority
               />
             </div>
             {/* Overlay badge */}
-            <div className="absolute -bottom-6 -left-6 bg-gold-gradient p-5 rounded-lg shadow-xl text-maroon-primary border border-gold-accent max-w-[200px]">
+            <div className="absolute -bottom-6 -left-6 bg-gold-gradient p-5 rounded-lg shadow-xl text-maroon-primary border border-gold-accent max-w-[200px] z-10">
               <p className="font-luxury text-3xl font-bold leading-none">100%</p>
               <p className="text-xs font-bold uppercase tracking-wider mt-1.5 leading-tight">
                 Authentic Handloom Certified
