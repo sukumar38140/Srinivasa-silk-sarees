@@ -120,9 +120,9 @@ export default async function HomePage() {
               />
             </div>
             {/* Overlay badge */}
-            <div className="absolute -bottom-6 -left-6 bg-gold-gradient p-5 rounded-lg shadow-xl text-maroon-primary border border-gold-accent max-w-[200px] z-10">
-              <p className="font-luxury text-3xl font-bold leading-none">100%</p>
-              <p className="text-xs font-bold uppercase tracking-wider mt-1.5 leading-tight">
+            <div className="absolute -bottom-3 -left-3 lg:-bottom-6 lg:-left-6 bg-gold-gradient p-3 lg:p-5 rounded-lg shadow-xl text-maroon-primary border border-gold-accent max-w-[140px] lg:max-w-[200px] z-10">
+              <p className="font-luxury text-xl lg:text-3xl font-bold leading-none">100%</p>
+              <p className="text-[9px] lg:text-xs font-bold uppercase tracking-wider mt-1 lg:mt-1.5 leading-tight">
                 Authentic Handloom Certified
               </p>
             </div>
